@@ -1,0 +1,18 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+      "description": {
+        "identifier": "bg:dragon_heart",
+        "category": "items"
+    },
+    "components": {
+    "minecraft:creative_category": {
+      "parent": "itemGroup.name.blocks"
+    },
+			"minecraft:icon": {
+      "texture": "dragon_heart"
+    },
+    "minecraft:render_offsets": "item"
+      }
+   }
+}

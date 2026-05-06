@@ -1,0 +1,20 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_furnace": {
+    "tags": [
+      "furnace",
+      "blast_furnace"
+    ],
+    "output": {
+      "item": "bg:draconium_ingot",
+      "data": 0
+    },
+    "input": {
+      "item": "bg:draconium_dust",
+      "data": 0
+    },
+    "description": {
+      "identifier": "draconium_ingot_h65rp6t7"
+    }
+  }
+}

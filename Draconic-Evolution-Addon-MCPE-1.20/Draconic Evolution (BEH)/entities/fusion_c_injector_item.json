@@ -1,0 +1,93 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:entity":
+    {
+        "description":
+        {
+            "identifier": "bg:fusion_c_injector_item",
+            "is_spawnable": false,
+            "is_summonable": true,
+            "is_experimental": false
+        },
+        "component_groups":
+        {
+
+        },
+        "components":
+        {
+            "minecraft:pushable": {
+                "is_pushable": false,
+                "is_pushable_by_piston": false
+            },
+            "minecraft:type_family":
+            {
+                "family": ["inanimate"]
+            },
+            "minecraft:collision_box":
+            {
+                "height": 0,
+                "width": 0
+            },
+            "minecraft:health":
+            {
+                "value": 1
+            },
+            "minecraft:fire_immune":
+            {},
+            "minecraft:damage_sensor":
+            {
+                "triggers":
+                {
+                    "cause": "all",
+                    "deals_damage": false
+                }
+            },
+            "minecraft:inventory":
+            {
+                "private": true,
+                "inventory_size": 1
+            },
+            "minecraft:inside_block_notifier":
+            {
+                "block_list": [
+                 {
+                    "block": "bg:basic_fusion_crafting_injector",
+                    "exited_block_event":
+                    {
+                        "event": "destroy",
+                        "target": "self"
+                    }
+                 },
+                 {
+                    "block": "bg:wyvern_fusion_crafting_injector",
+                    "exited_block_event":
+                    {
+                        "event": "destroy",
+                        "target": "self"
+                    }
+                 },
+                 {
+                    "block": "bg:draconic_fusion_crafting_injector",
+                    "exited_block_event":
+                    {
+                        "event": "destroy",
+                        "target": "self"
+                    }
+                 }
+              ]
+           }
+        },
+        "events":
+        {
+            "destroy":
+            {
+                "run_command":
+                {
+                    "command": [
+                        "kill @s"
+                    ]
+                }
+            }
+        }
+    }
+}

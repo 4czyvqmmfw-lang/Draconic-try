@@ -1,0 +1,18 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+      "description": {
+        "identifier": "bg:draconium_dust",
+        "category": "items"
+    },
+    "components": {
+    "minecraft:creative_category": {
+      "parent": "itemGroup.name.blocks"
+    },
+			"minecraft:icon": {
+      "texture": "draconium_dust"
+    },
+    "minecraft:render_offsets": "item"
+      }
+   }
+}

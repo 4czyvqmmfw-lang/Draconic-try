@@ -1,0 +1,1169 @@
+
+{
+  "format_version": "1.19.50",
+  "minecraft:item": {
+    "description": {
+      "identifier": "bg:draconic_axe",
+      "category": "equipment"
+    },
+    "components": {
+      "minecraft:icon": {
+        "texture": "draconic_axe"
+      },
+      "minecraft:creative_category": {
+        "parent": "itemGroup.name.axe"
+      },
+	     "tag:minecraft:is_axe": {},
+      "minecraft:max_stack_size": 1,
+      "minecraft:hand_equipped": true,
+	     "minecraft:damage": 21,
+      "minecraft:digger": {
+        "use_efficiency": true,
+        "destroy_speeds": [
+          {
+            "block": "minecraft:chest",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:trapdoor",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:mangrove_roots",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						}
+					},
+					{
+						"block": "minecraft:spruce_trapdoor",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:mangrove_trapdoor",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:birch_fence_gate",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:jungle_fence_gate",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:acacia_fence_gate",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:dark_oak_fence_gate",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:warped_fence_gate",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:crimson_fence_gate",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:mangrove_fence_gate",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:jukebox",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:log",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt2"
+						 }
+					},
+					{
+						"block": "minecraft:log2",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt2"
+						 }
+					},
+					{
+						"block": "minecraft:crimson_stem",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt2"
+						 }
+					},
+					{
+						"block": "minecraft:warped_stem",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt2"
+						 }
+					},
+					{
+						"block": "minecraft:mangrove_log",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt2"
+						 }
+					},
+					{
+						"block": "minecraft:stripped_spruce_log",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:stripped_birch_log",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:stripped_jungle_log",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:stripped_acacia_log",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:stripped_dark_oak_log",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:stripped_oak_log",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:stripped_crimson_stem",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:stripped_warped_stem",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:stripped_mangrove_log",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:planks",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:crimson_planks",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:warped_planks",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:mangrove_planks",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:wooden_slab",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:mangrove_slab",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:double_wooden_slab",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:mangrove_double_slab",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:oak_stairs",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:wood",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:mangrove_wood",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:stripped_mangrove_wood",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:spruce_stairs",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:jungle_stairs",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:acacia_stairs",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:dark_oak_stairs",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:crimson_stairs",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:warped_stairs",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:mangrove_stairs",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:campfire",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:soul_campfire",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:bookshelf",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:standing_banner",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:wall_banner",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:lit_pumpkin",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:pumpkin",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:carved_pumpkin",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:standing_sign",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:crimson_standing_sign",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:warped_standing_sign",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:mangrove_standing_sign",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:wall_sign",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:noteblock",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:wooden_pressure_plate",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:beehive",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:bee_nest",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:ladder",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:composter",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:bamboo",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:bamboo_sapling",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:daylight_detector",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:daylight_detector_inverted",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:brown_mushroom_block",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:red_mushroom_block",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:vine",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:cocoa",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:birch_trapdoor",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:jungle_trapdoor",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:acacia_trapdoor",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:dark_oak_trapdoor",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:spruce_door",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:wooden_door",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:crimson_planks",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:birch_door",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:jungle_door",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:acacia_door",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:mangrove_door",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:trapped_chest",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:lectern",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:smithing_table",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:loom",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:cartography_table",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:fletching_table",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:barrel",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:fence",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:warped_fence",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:crimson_fence",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:mangrove_fence",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:fence_gate",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:spruce_fence_gate",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:dark_oak_door",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:bookshelf",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:melon_block",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:warped_stem",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt2"
+						 }
+					},
+					{
+						"block": "minecraft:crimson_stem",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt2"
+						 }
+					},
+					{
+						"block": "minecraft:warped_stem",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:crimson_stem",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:crafting_table",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:crimson_planks",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:warped_planks",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:warped_stairs",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:warped_trapdoor",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:crimson_stairs",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:crimson_trapdoor",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:crimson_door",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:crimson_double_slab",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:warped_door",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:warped_double_slab",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:crafting_table",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:chiseled_bookshelf",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:cherry_log",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt2"
+						 }
+					},
+					{
+						"block": "minecraft:stripped_cherry_log",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:cherry_wood",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:stripped_cherry_wood",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:cherry_planks",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:cherry_slab",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:cherry_double_slab",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:cherry_door",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:cherry_trapdoor",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:cherry_fence",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:cherry_fence_gate",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:cherry_stairs",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:cherry_standing_sign",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:charry_wall_sign",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:bamboo_block",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:stripped_bamboo_block",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:bamboo_planks",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:bamboo_mosaic",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:bamboo_slab",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:bamboo_double_slab",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:bamboo_stairs",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:bamboo_mosaic_slab",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:bamboo_mosaic_double_slab",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:bamboo_mosaic_stairs",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:bamboo_door",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:bamboo_trapdoor",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:bamboo_fence",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:bamboo_fence_gate",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:bamboo_standing_sign",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:bamboo_wall_sign",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:oak_hanging_sign",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:spruce_hanging_sign",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:birch_hanging_sign",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:jungle_hanging_sign",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:acacia_hanging_sign",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:dark_oak_hanging_sign",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:crimson_hanging_sign",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:warped_hanging_sign",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:mangrove_hanging_sign",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					},
+					{
+						"block": "minecraft:cherry_hanging_sign",
+						"speed": 50,
+						"on_dig": {
+							"event": "hurt"
+						 }
+					}
+		],
+		"on_dig": {
+			"event": "hurt"
+		  }
+	 },
+		"minecraft:weapon": {
+			"on_hurt_entity": {
+				"event": "hurt"
+			}
+		},
+		"minecraft:durability": {
+			"max_durability": 1003,
+			"damage_chance": {
+				"min": 5,
+				"max": 10
+			}
+		}
+	},
+	"events": {
+		"hurt": {
+            "damage": {
+              "type": "magic",
+              "amount": 1,
+              "target": "self"
+             }
+	     },
+  "hurt2": {
+			"sequence": [
+          {
+            "damage": {
+              "type": "magic",
+              "amount": 1,
+              "target": "self"
+             }
+          },
+           {
+            "run_command": {
+              "command":[  
+                "function draconic_wood_vein" 
+                 ],
+              "target": "block"
+             }
+           }
+        ]
+	     }
+	   }
+  }
+}

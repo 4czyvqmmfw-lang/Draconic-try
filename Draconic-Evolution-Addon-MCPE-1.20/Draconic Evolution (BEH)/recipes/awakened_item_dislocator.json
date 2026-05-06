@@ -1,0 +1,38 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "awakened_item_dislocator_gt49d6gu"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "C C",
+      "D D",
+      "BAB"
+    ],
+    "key": {
+      "A": {
+        "item": "bg:item_dislocator",
+        "data": 0
+      },
+      "B": {
+        "item": "bg:awakened_draconium_ingot",
+        "data": 0
+      },
+      "C": {
+        "item": "bg:draconium_ingot",
+        "data": 0
+      },
+      "D": {
+        "item": "minecraft:redstone",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "bg:awakened_item_dislocator",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "bg:draconium_ore_end",
+      "category": "Nature"
+    },
+    "components": {
+      "minecraft:creative_category":{
+      "category": "Nature",
+      "group": "itemGroup.name.ore"
+      },
+      "minecraft:loot": "",
+      "minecraft:destroy_time": 7.0,
+      "minecraft:friction": 0.6,
+      "minecraft:map_color": "#FFFFFF",
+      "minecraft:explosion_resistance": 60,
+      "minecraft:block_light_absorption": 0.0,
+      "minecraft:block_light_emission": 0.0,
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "draconium_ore_end",
+          "render_method": "alpha_test"
+        }
+      },
+      "minecraft:on_player_destroyed": {
+        "event": "ore"
+      }
+    },
+    "events": {
+      "ore": {
+        "sequence": [
+           {
+        "condition": "query.get_equipped_item_name == 'diamond_pickaxe'",
+				   "spawn_loot": {
+           "table": "loot_tables/blocks/draconium_ore.json"
+             }
+           },
+           {
+        "condition": "query.get_equipped_item_name == 'netherite_pickaxe'",
+			    	 "spawn_loot": {
+            "table": "loot_tables/blocks/draconium_ore.json"
+             }
+           },
+           {
+        "condition": "query.get_equipped_item_name == 'wyvern_pickaxe'",
+			    	 "spawn_loot": {
+            "table": "loot_tables/blocks/draconium_ore.json"
+             }
+           },
+           {
+        "condition": "query.get_equipped_item_name == 'draconic_pickaxe'",
+			    	 "spawn_loot": {
+            "table": "loot_tables/blocks/draconium_ore.json"
+             }
+           },
+           {
+        "condition": "query.get_equipped_item_name == 'draconic_staff_of_power'",
+			    	 "spawn_loot": {
+            "table": "loot_tables/blocks/draconium_ore.json"
+             }
+           },
+           {
+        "condition": "query.get_equipped_item_name == 'spectre_pickaxe'",
+			    	 "spawn_loot": {
+            "table": "loot_tables/blocks/draconium_ore.json"
+             }
+           },
+           {
+        "condition": "query.get_equipped_item_name == 'dark_matter_pickaxe'",
+			    	 "spawn_loot": {
+            "table": "loot_tables/blocks/draconium_ore.json"
+             }
+           },
+           {
+        "condition": "query.get_equipped_item_name == 'dark_matter_hammer'",
+			    	 "spawn_loot": {
+            "table": "loot_tables/blocks/draconium_ore.json"
+             }
+           },
+           {
+        "condition": "query.get_equipped_item_name == 'red_matter_pickaxe'",
+			    	 "spawn_loot": {
+            "table": "loot_tables/blocks/draconium_ore.json"
+             }
+           },
+           {
+        "condition": "query.get_equipped_item_name == 'red_matter_hammer'",
+			    	 "spawn_loot": {
+            "table": "loot_tables/blocks/draconium_ore.json"
+             }
+           },
+           {
+        "condition": "query.get_equipped_item_name == 'red_morningstar'",
+			    	 "spawn_loot": {
+            "table": "loot_tables/blocks/draconium_ore.json"
+             }
+           },
+           {
+        "condition": "query.get_equipped_item_name == 'atomic_disassembler_fast'",
+			    	 "spawn_loot": {
+            "table": "loot_tables/blocks/draconium_ore.json"
+             }
+           },
+           {
+        "condition": "query.get_equipped_item_name == 'atomic_disassembler_normal'",
+			    	 "spawn_loot": {
+            "table": "loot_tables/blocks/draconium_ore.json"
+             }
+           },
+           {
+        "condition": "query.get_equipped_item_name == 'atomic_disassembler_vein'",
+			    	 "spawn_loot": {
+            "table": "loot_tables/blocks/draconium_ore.json"
+             }
+           },
+           {
+        "condition": "query.get_equipped_item_name == 'atomic_disassembler_slow'",
+			    	 "spawn_loot": {
+            "table": "loot_tables/blocks/draconium_ore.json"
+             }
+           },
+           {
+        "condition": "query.get_equipped_item_name == 'infinity_pickaxe'",
+			    	 "spawn_loot": {
+            "table": "loot_tables/blocks/draconium_ore.json"
+             }
+           },
+           {
+        "condition": "query.get_equipped_item_name == 'infinity_pickaxe1'",
+			    	 "spawn_loot": {
+            "table": "loot_tables/blocks/draconium_ore.json"
+             }
+           }
+         ]
+		  	  }
+    },
+    "permutations": [
+      {
+        "condition": "query.block_property('block:rotation') == 2",
+        "components": {
+          "minecraft:rotation": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "condition": "query.block_property('block:rotation') == 3",
+        "components": {
+          "minecraft:rotation": [
+            0,
+            -180,
+            0
+          ]
+        }
+      },
+      {
+        "condition": "query.block_property('block:rotation') == 4",
+        "components": {
+          "minecraft:rotation": [
+            0,
+            90,
+            0
+          ]
+        }
+      },
+      {
+        "condition": "query.block_property('block:rotation') == 5",
+        "components": {
+          "minecraft:rotation": [
+            0,
+            -90,
+            0
+          ]
+        }
+      }
+    ]
+  }
+}

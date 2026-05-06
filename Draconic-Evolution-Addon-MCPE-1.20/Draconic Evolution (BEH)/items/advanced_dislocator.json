@@ -1,0 +1,16 @@
+{
+  "format_version": "1.19.50",
+  "minecraft:item": {
+    "description": {
+      "identifier": "bg:advanced_dislocator",
+       "category": "equipment"
+    },
+    "components": {
+      "minecraft:icon": {
+        "texture": "advanced_dislocator"
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:render_offsets": "item"
+	   }
+  }
+}

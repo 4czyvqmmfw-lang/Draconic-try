@@ -1,0 +1,177 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "advanced_dislocator": {
+      "textures": "textures/items/advanced_dislocator"
+    },
+    "awakened_core": {
+      "textures": "textures/items/awakened_core"
+    },
+    "awakened_draconium_ingot": {
+      "textures": "textures/items/awakened_draconium_ingot"
+    },
+    "awakened_draconium_nugget": {
+      "textures": "textures/items/awakened_draconium_nugget"
+    },
+    "awakened_item_dislocator": {
+      "textures": "textures/items/awakened_item_dislocator"
+    },
+    "creative_flux_capacitor": {
+      "textures": "textures/items/creative_flux_capacitor"
+    },
+    "dislocator": {
+      "textures": "textures/items/dislocator"
+    },
+    "draconic_axe": {
+      "textures": "textures/items/draconic_axe"
+    },
+    "draconic_axe_empty": {
+      "textures": "textures/items/draconic_axe_empty"
+    },
+    "draconic_boots": {
+      "textures": "textures/items/draconic_boots"
+    },
+    "draconic_boots_empty": {
+      "textures": "textures/items/draconic_boots_empty"
+    },
+    "draconic_chestplate": {
+      "textures": "textures/items/draconic_chestplate"
+    },
+    "draconic_chestplate_empty": {
+      "textures": "textures/items/draconic_chestplate_empty"
+    },
+    "draconic_core": {
+      "textures": "textures/items/draconic_core"
+    },
+    "draconic_energy_core": {
+      "textures": "textures/items/draconic_energy_core"
+    },
+    "draconic_flux_capacitor": {
+      "textures": "textures/items/draconic_flux_capacitor"
+    },
+    "draconic_helmet": {
+      "textures": "textures/items/draconic_helmet"
+    },
+    "draconic_helmet_empty": {
+      "textures": "textures/items/draconic_helmet_empty"
+    },
+    "draconic_hoe": {
+      "textures": "textures/items/draconic_hoe"
+    },
+    "draconic_hoe_empty": {
+      "textures": "textures/items/draconic_hoe_empty"
+    },
+    "draconic_leggings": {
+      "textures": "textures/items/draconic_leggings"
+    },
+    "draconic_leggings_empty": {
+      "textures": "textures/items/draconic_leggings_empty"
+    },
+    "draconic_pickaxe": {
+      "textures": "textures/items/draconic_pickaxe"
+    },
+    "draconic_pickaxe_empty": {
+      "textures": "textures/items/draconic_pickaxe_empty"
+    },
+    "draconic_shovel": {
+      "textures": "textures/items/draconic_shovel"
+    },
+    "draconic_shovel_empty": {
+      "textures": "textures/items/draconic_shovel_empty"
+    },
+    "draconic_staff_of_power": {
+      "textures": "textures/items/draconic_staff_of_power"
+    },
+    "draconic_staff_of_power_empty": {
+      "textures": "textures/items/draconic_staff_of_power_empty"
+    },
+    "draconic_sword": {
+      "textures": "textures/items/draconic_sword"
+    },
+    "draconic_sword_empty": {
+      "textures": "textures/items/draconic_sword_empty"
+    },
+    "draconium_ingot": {
+      "textures": "textures/items/draconium_ingot"
+    },
+    "draconium_nugget": {
+      "textures": "textures/items/draconium_nugget"
+    },
+    "draconium_dust": {
+      "textures": "textures/items/draconium_dust"
+    },
+    "draconium_ingot": {
+      "textures": "textures/items/draconium_ingot"
+    },
+    "draconium_nugget": {
+      "textures": "textures/items/draconium_nugget"
+    },
+    "dragon_heart": {
+      "textures": "textures/items/dragon_heart"
+    },
+    "info_tablet": {
+      "textures": "textures/items/info_tablet"
+    },
+    "item_dislocator": {
+      "textures": "textures/items/item_dislocator"
+    },
+    "wyvern_axe": {
+      "textures": "textures/items/wyvern_axe"
+    },
+    "wyvern_axe_empty": {
+      "textures": "textures/items/wyvern_axe_empty"
+    },
+    "wyvern_boots": {
+      "textures": "textures/items/wyvern_boots"
+    },
+    "wyvern_boots_empty": {
+      "textures": "textures/items/wyvern_boots_empty"
+    },
+    "wyvern_chestplate": {
+      "textures": "textures/items/wyvern_chestplate"
+    },
+    "wyvern_chestplate_empty": {
+      "textures": "textures/items/wyvern_chestplate_empty"
+    },
+    "wyvern_core": {
+      "textures": "textures/items/wyvern_core"
+    },
+    "wyvern_energy_core": {
+      "textures": "textures/items/wyvern_energy_core"
+    },
+    "wyvern_flux_capacitor": {
+      "textures": "textures/items/wyvern_flux_capacitor"
+    },
+    "wyvern_helmet": {
+      "textures": "textures/items/wyvern_helmet"
+    },
+    "wyvern_helmet_empty": {
+      "textures": "textures/items/wyvern_helmet_empty"
+    },
+    "wyvern_leggings": {
+      "textures": "textures/items/wyvern_leggings"
+    },
+    "wyvern_leggings_empty": {
+      "textures": "textures/items/wyvern_leggings_empty"
+    },
+    "wyvern_pickaxe": {
+      "textures": "textures/items/wyvern_pickaxe"
+    },
+    "wyvern_pickaxe_empty": {
+      "textures": "textures/items/wyvern_pickaxe_empty"
+    },
+    "wyvern_shovel": {
+      "textures": "textures/items/wyvern_shovel"
+    },
+    "wyvern_shovel_empty": {
+      "textures": "textures/items/wyvern_shovel_empty"
+    },
+    "wyvern_sword": {
+      "textures": "textures/items/wyvern_sword"
+    },
+    "wyvern_sword_empty": {
+      "textures": "textures/items/wyvern_sword_empty"
+    }
+  }
+}

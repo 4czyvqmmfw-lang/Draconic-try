@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "awakened_draconium_ingot_f4ed6ghj"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "AAA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "bg:awakened_draconium_nugget",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "bg:awakened_draconium_ingot",
+      "count": 1
+    }
+  }
+}

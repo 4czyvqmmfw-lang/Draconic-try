@@ -1,0 +1,148 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "bg:celestial_manipulator6",
+      "category": "command",
+      "properties": {
+        "block:rotation": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      }
+    },
+    "components": {
+      "minecraft:loot": "loot_tables/blocks/celestial_manipulator.json",
+      "minecraft:geometry": "geometry.celestial_manipulator",
+      "minecraft:destroy_time": 5.0,
+      "minecraft:friction": 0.6,
+      "minecraft:map_color": "#FFFFFF",
+      "minecraft:explosion_resistance": 30,
+      "minecraft:block_light_absorption": 0.0,
+      "minecraft:block_light_emission": 0.0,
+      "minecraft:on_player_placing": {
+        "event": "update_rotation"
+      },
+      "minecraft:pick_collision": {
+        "origin": [
+          -8.0,
+          0,
+          -8.0
+        ],
+        "size": [
+          14,
+          14,
+          14
+        ]
+      },
+      "minecraft:entity_collision": {
+        "origin": [
+          -8.0,
+          0,
+          -8.0
+        ],
+        "size": [
+          14,
+          14,
+          14
+        ]
+      },
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "celestial_manipulator",
+          "render_method": "alpha_test"
+        }
+      },
+      "minecraft:on_interact": {
+        "event": "troca"
+      }
+    },
+    "events": {
+      "update_rotation": {
+        "set_block_property": {
+          "block:rotation": "query.cardinal_facing_2d"
+        }
+      },
+      "troca": {
+        "sequence": [
+           {
+        "condition": "query.get_equipped_item_name != 'emerald'",
+				"run_command": {
+					"command": [
+						"setblock ~~~ bg:celestial_manipulator7",
+						"title @p actionbar Time:Sunset"
+			   	        	]
+			  	       }
+           },
+           {
+        "condition": "query.get_equipped_item_name == 'emerald'",
+				"run_command": {
+					"command": [
+						"execute if block ~ ~-1 ~ bg:generator_active run time set noon",
+           "execute unless block ~ ~-1 ~ bg:generator_active if block ~ ~1 ~ bg:generator_active run time set noon",
+           "execute unless block ~ ~-1 ~ bg:generator_active unless block ~ ~1 ~ bg:generator_active if block ~-1 ~ ~ bg:generator_active run time set noon",
+           "execute unless block ~ ~-1 ~ bg:generator_active unless block ~ ~1 ~ bg:generator_active unless block ~-1 ~ ~ bg:generator_active if block ~1 ~ ~ bg:generator_active run time set noon",
+           "execute unless block ~ ~-1 ~ bg:generator_active unless block ~ ~1 ~ bg:generator_active unless block ~-1 ~ ~ bg:generator_active unless block ~1 ~ ~ bg:generator_active if block ~ ~ ~-1 bg:generator_active run time set noon",
+           "execute unless block ~ ~-1 ~ bg:generator_active unless block ~ ~1 ~ bg:generator_active unless block ~-1 ~ ~ bg:generator_active unless block ~1 ~ ~ bg:generator_active unless block ~ ~ ~-1 bg:generator_active if block ~ ~ ~-1 bg:generator_active run time set noon",
+						"execute if block ~ ~-1 ~ bg:creative_rf_source run time set noon",
+           "execute unless block ~ ~-1 ~ bg:creative_rf_source if block ~ ~1 ~ bg:creative_rf_source run time set noon",
+           "execute unless block ~ ~-1 ~ bg:creative_rf_source unless block ~ ~1 ~ bg:creative_rf_source if block ~-1 ~ ~ bg:creative_rf_source run time set noon",
+           "execute unless block ~ ~-1 ~ bg:creative_rf_source unless block ~ ~1 ~ bg:creative_rf_source unless block ~-1 ~ ~ bg:creative_rf_source if block ~1 ~ ~ bg:creative_rf_source run time set noon",
+           "execute unless block ~ ~-1 ~ bg:creative_rf_source unless block ~ ~1 ~ bg:creative_rf_source unless block ~-1 ~ ~ bg:creative_rf_source unless block ~1 ~ ~ bg:creative_rf_source if block ~ ~ ~-1 bg:creative_rf_source run time set noon",
+           "execute unless block ~ ~-1 ~ bg:creative_rf_source unless block ~ ~1 ~ bg:creative_rf_source unless block ~-1 ~ ~ bg:creative_rf_source unless block ~1 ~ ~ bg:creative_rf_source unless block ~ ~ ~-1 bg:creative_rf_source if block ~ ~ ~-1 bg:creative_rf_source run time set noon"
+			   	        	]
+			  	       },
+				   "decrement_stack": {}
+           }
+         ]
+		  	  }
+    },
+    "permutations": [
+      {
+        "condition": "query.block_property('block:rotation') == 2",
+        "components": {
+          "minecraft:rotation": [
+            0,
+            -180,
+            0
+          ]
+        }
+      },
+      {
+        "condition": "query.block_property('block:rotation') == 3",
+        "components": {
+          "minecraft:rotation": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "condition": "query.block_property('block:rotation') == 4",
+        "components": {
+          "minecraft:rotation": [
+            0,
+            -90,
+            0
+          ]
+        }
+      },
+      {
+        "condition": "query.block_property('block:rotation') == 5",
+        "components": {
+          "minecraft:rotation": [
+            0,
+            90,
+            0
+          ]
+        }
+      }
+    ]
+  }
+}

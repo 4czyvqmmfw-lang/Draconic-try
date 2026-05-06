@@ -1,0 +1,19 @@
+replaceitem entity @s[hasitem={location=slot.weapon.mainhand, item=bg:wyvern_sword}] slot.weapon.mainhand 0 bg:wyvern_sword_empty
+replaceitem entity @s[hasitem={location=slot.weapon.mainhand, item=bg:wyvern_pickaxe}] slot.weapon.mainhand 0 bg:wyvern_pickaxe_empty
+replaceitem entity @s[hasitem={location=slot.weapon.mainhand, item=bg:wyvern_axe}] slot.weapon.mainhand 0 bg:wyvern_axe_empty
+replaceitem entity @s[hasitem={location=slot.weapon.mainhand, item=bg:wyvern_shovel}] slot.weapon.mainhand 0 bg:wyvern_shovel_empty
+replaceitem entity @s[hasitem={location=slot.weapon.mainhand, item=bg:wyvern_helmet}] slot.weapon.mainhand 0 bg:wyvern_helmet_empty
+replaceitem entity @s[hasitem={location=slot.weapon.mainhand, item=bg:wyvern_chestplate}] slot.weapon.mainhand 0 bg:wyvern_chestplate_empty
+replaceitem entity @s[hasitem={location=slot.weapon.mainhand, item=bg:wyvern_leggings}] slot.weapon.mainhand 0 bg:wyvern_leggings_empty
+replaceitem entity @s[hasitem={location=slot.weapon.mainhand, item=bg:wyvern_boots}] slot.weapon.mainhand 0 bg:wyvern_boots_empty
+
+replaceitem entity @s[hasitem={location=slot.weapon.mainhand, item=bg:draconic_sword}] slot.weapon.mainhand 0 bg:draconic_sword_empty
+replaceitem entity @s[hasitem={location=slot.weapon.mainhand, item=bg:draconic_pickaxe}] slot.weapon.mainhand 0 bg:draconic_pickaxe_empty
+replaceitem entity @s[hasitem={location=slot.weapon.mainhand, item=bg:draconic_axe}] slot.weapon.mainhand 0 bg:draconic_axe_empty
+replaceitem entity @s[hasitem={location=slot.weapon.mainhand, item=bg:draconic_shovel}] slot.weapon.mainhand 0 bg:draconic_shovel_empty
+replaceitem entity @s[hasitem={location=slot.weapon.mainhand, item=bg:draconic_hoe}] slot.weapon.mainhand 0 bg:draconic_hoe_empty
+replaceitem entity @s[hasitem={location=slot.weapon.mainhand, item=bg:draconic_staff_of_power}] slot.weapon.mainhand 0 bg:draconic_staff_of_power_empty
+replaceitem entity @s[hasitem={location=slot.weapon.mainhand, item=bg:draconic_helmet}] slot.weapon.mainhand 0 bg:draconic_helmet_empty
+replaceitem entity @s[hasitem={location=slot.weapon.mainhand, item=bg:draconic_chestplate}] slot.weapon.mainhand 0 bg:draconic_chestplate_empty
+replaceitem entity @s[hasitem={location=slot.weapon.mainhand, item=bg:draconic_leggings}] slot.weapon.mainhand 0 bg:draconic_leggings_empty
+replaceitem entity @s[hasitem={location=slot.weapon.mainhand, item=bg:draconic_boots}] slot.weapon.mainhand 0 bg:draconic_boots_empty

@@ -1,0 +1,30 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "info_tablet_t54d6gyu"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "BBB",
+      "BAB",
+      "BBB"
+    ],
+    "key": {
+      "A": {
+        "item": "bg:draconium_dust",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:stone",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "bg:info_tablet",
+      "count": 1
+    }
+  }
+}

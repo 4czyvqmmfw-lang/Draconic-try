@@ -1,0 +1,137 @@
+{
+  "format_version": "1.17.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "bg:generator_active",
+      "category": "command",
+      "properties": {
+        "block:rotation": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      }
+    },
+    "components": {
+      "minecraft:loot": "loot_tables/blocks/generator.json",
+      "minecraft:destroy_time": 5.0,
+      "minecraft:friction": 0.6,
+      "minecraft:map_color": "#FFFFFF",
+      "minecraft:explosion_resistance": 30,
+      "minecraft:block_light_absorption": 0.0,
+      "minecraft:block_light_emission": 0.0,
+      "minecraft:on_player_placing": {
+        "event": "update_rotation"
+      },
+      "minecraft:unit_cube":{},
+      "minecraft:material_instances": {
+        "east": {
+          "render_method": "alpha_test",
+          "texture": "machine_side"
+      },
+        "west": {
+          "render_method": "alpha_test",
+          "texture": "machine_side"
+      },
+        "north": {
+          "render_method": "alpha_test",
+          "texture": "tick_generator_front_active"
+      },
+        "south": {
+          "render_method": "alpha_test",
+          "texture": "tick_machine_fan_active"
+      },
+        "down": {
+          "render_method": "alpha_test",
+          "texture": "machine_top"
+      },
+        "up": {
+          "render_method": "alpha_test",
+          "texture": "machine_top"
+         }
+      },
+      "minecraft:on_placed": {
+        "event": "ui"
+      },
+      "minecraft:ticking": {
+        "looping": true,
+        "range": [
+          187,
+          187
+        ],
+        "on_tick": {
+          "event": "on_tick",
+          "target": "self"
+        }
+      }
+    },
+    "permutations": [
+      {
+        "condition": "query.block_property('block:rotation') == 2",
+        "components": {
+          "minecraft:rotation": [
+            0,
+            -180,
+            0
+          ]
+        }
+      },
+      {
+        "condition": "query.block_property('block:rotation') == 3",
+        "components": {
+          "minecraft:rotation": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "condition": "query.block_property('block:rotation') == 4",
+        "components": {
+          "minecraft:rotation": [
+            0,
+            -90,
+            0
+          ]
+        }
+      },
+      {
+        "condition": "query.block_property('block:rotation') == 5",
+        "components": {
+          "minecraft:rotation": [
+            0,
+            90,
+            0
+          ]
+        }
+      }
+    ],
+    "events": {
+      "update_rotation": {
+        "set_block_property": {
+          "block:rotation": "query.cardinal_facing_2d"
+        }
+      },
+      "ui": {
+        "run_command": {
+          "command": [
+           "execute unless entity @e[type=bg:generator_container, r=1] run summon bg:generator_container generator ~ ~ ~"
+          ]
+        }
+      },
+      "on_tick": {
+        "run_command": {
+          "command": [
+           "function generator2",
+           "execute unless entity @e[type=bg:generator_container, r=1] run setblock ~~~ air destroy"
+          ]
+        }
+      }
+    }
+  }
+}

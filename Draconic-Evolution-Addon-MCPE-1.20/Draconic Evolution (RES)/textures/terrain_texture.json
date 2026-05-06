@@ -1,0 +1,77 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.terrain",
+  "padding": 8,
+  "num_mip_levels": 4,
+  "texture_data": {
+    "awakened_draconium_block_side": {
+      "textures": "textures/blocks/awakened_draconium_block_side"
+    },
+    "awakened_draconium_block": {
+      "textures": "textures/blocks/awakened_draconium_block"
+    },
+    "basic_fusion_crafting_injector": {
+      "textures": "textures/blocks/basic_fusion_crafting_injector"
+    },
+    "celestial_manipulator": {
+      "textures": "textures/blocks/celestial_manipulator"
+    },
+    "draconic_fusion_crafting_injector": {
+      "textures": "textures/blocks/draconic_fusion_crafting_injector"
+    },
+    "draconium_block": {
+      "textures": "textures/blocks/draconium_block"
+    },
+    "draconium_chest": {
+      "textures": "textures/blocks/draconium_chest"
+    },
+    "energy_core_stabilizer": {
+      "textures": "textures/blocks/energy_core_stabilizer"
+    },
+    "energy_infuser": {
+      "textures": "textures/blocks/energy_infuser"
+    },
+    "fusion_crafting_core": {
+      "textures": "textures/blocks/fusion_crafting_core"
+    },
+    "generator_front": {
+      "textures": "textures/blocks/generator_front"
+    },
+    "machine_fan": {
+      "textures": "textures/blocks/machine_fan"
+    },
+    "machine_side": {
+      "textures": "textures/blocks/machine_side"
+    },
+    "machine_top": {
+      "textures": "textures/blocks/machine_top"
+    },
+    "particle_generator": {
+      "textures": "textures/blocks/particle_generator"
+    },
+    "tick_creative_rf_source": {
+      "textures": "textures/blocks/creative_rf_source"
+    },
+    "tick_draconium_ore_end": {
+      "textures": "textures/blocks/draconium_ore_end"
+    },
+    "tick_draconium_ore_nether": {
+      "textures": "textures/blocks/draconium_ore_nether"
+    },
+    "tick_draconium_ore": {
+      "textures": "textures/blocks/draconium_ore"
+    },
+    "tick_generator_front_active": {
+      "textures": "textures/blocks/generator_front_active"
+    },
+    "tick_machine_fan_active": {
+      "textures": "textures/blocks/machine_fan_active"
+    },
+    "tick_mob_grinder_front_active": {
+      "textures": "textures/blocks/mob_grinder_front_active"
+    },
+    "wyvern_fusion_crafting_injector": {
+      "textures": "textures/blocks/wyvern_fusion_crafting_injector"
+    }
+  }
+}

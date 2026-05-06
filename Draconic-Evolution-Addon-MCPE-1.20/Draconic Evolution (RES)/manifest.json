@@ -1,0 +1,30 @@
+{
+  "format_version": 1,
+  "header": {
+    "description": "Original mod by brandon3055. Port by Brunum",
+    "name": "Draconic Evolution Addon (RES)",
+    "uuid": "f9614793-c917-4067-aefb-3e93671338e9",
+    "version": [
+      2,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      8,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "description": "Original mod by brandon3055. Port by Brunum",
+      "type": "resources",
+      "uuid": "6f722523-212b-4ae2-839d-1fd3ad4eb9e0",
+      "version": [
+        0,
+        0,
+        1
+      ]
+    }
+  ]
+}

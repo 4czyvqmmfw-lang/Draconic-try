@@ -1,0 +1,36 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "bg:redstone_vein"
+		},
+		"components": {                 
+               "minecraft:geometry": "geometry.wall",
+                        "minecraft:block_light_absorption": 0.0,    
+      "minecraft:loot": "loot_tables/blocks/redstone_vein.json",  
+                  "minecraft:material_instances": {
+                "*": {
+                    "texture": "redstone_ore",
+                    "render_method": "opaque"
+                }
+            },
+			"minecraft:on_placed": {
+				  "event": "aleatorio",
+				  "target": "self"
+			  }
+		},
+		"events": {
+			"aleatorio": {
+				"run_command": {
+					"command": [
+						"fill ~1 ~1 ~1 ~-1 ~-1 ~-1 bg:redstone_vein replace redstone_ore",
+						"fill ~1 ~1 ~1 ~-1 ~ ~-1 bg:redstone_vein replace redstone_ore",
+						"fill ~1 ~1 ~1 ~-1 ~-1 ~-1 bg:redstone_vein replace lit_redstone_ore",
+						"fill ~1 ~1 ~1 ~-1 ~ ~-1 bg:redstone_vein replace lit_redstone_ore",
+						"setblock ~~~ air destroy"
+					]
+				}
+			}
+		}
+	}
+}

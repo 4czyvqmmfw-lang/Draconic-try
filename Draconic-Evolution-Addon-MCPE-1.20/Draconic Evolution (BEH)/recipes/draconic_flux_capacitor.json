@@ -1,0 +1,38 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "draconic_flux_capacitor_jh6rx6gu"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "CDC",
+      "BAB",
+      "CBC"
+    ],
+    "key": {
+      "A": {
+        "item": "bg:wyvern_flux_capacitor",
+        "data": 0
+      },
+      "B": {
+        "item": "bg:awakened_draconium_ingot",
+        "data": 0
+      },
+      "C": {
+        "item": "bg:draconic_energy_core",
+        "data": 0
+      },
+      "D": {
+        "item": "bg:awakened_core",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "bg:draconic_flux_capacitor",
+      "count": 1
+    }
+  }
+}

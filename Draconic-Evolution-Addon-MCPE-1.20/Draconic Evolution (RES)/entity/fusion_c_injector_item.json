@@ -1,0 +1,26 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "bg:fusion_c_injector_item",
+            "materials": {
+                "default": "enderman_invisible"
+              },
+              "scripts": {
+                "initialize": [
+                    "v.x_rot = 0; v.z_rot = 0; v.rot_rate = 20;"
+                ],
+                "animate": [
+                  "basic"
+                ]
+              },
+              "textures": {
+                "default": "textures/textures/items/apple"
+              },
+              "geometry": {
+                "default": "geometry.fusion_c_injector_item"
+              },
+              "render_controllers": ["controller.render.default"]
+        }
+    }
+}

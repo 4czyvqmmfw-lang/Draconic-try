@@ -1,0 +1,17 @@
+{
+   "format_version" : "1.14.0",
+   "sound_definitions" : {
+      "custom.fusion_complete" : {
+         "category" : "block",
+         "sounds" : [
+            "sounds/fusion_complete"
+         ]
+      },
+      "custom.shield_strike" : {
+         "category" : "player",
+         "sounds" : [
+            "sounds/shield_strike"
+         ]
+      }
+   }
+}

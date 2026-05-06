@@ -1,0 +1,38 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "wyvern_leggings_bgy5rt7g"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "DBD",
+      "DAD",
+      "DCD"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:diamond_leggings",
+        "data": 0
+      },
+      "B": {
+        "item": "bg:wyvern_core",
+        "data": 0
+      },
+      "C": {
+        "item": "bg:wyvern_energy_core",
+        "data": 0
+      },
+      "D": {
+        "item": "bg:draconium_ingot",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "bg:wyvern_leggings_empty",
+      "count": 1
+    }
+  }
+}

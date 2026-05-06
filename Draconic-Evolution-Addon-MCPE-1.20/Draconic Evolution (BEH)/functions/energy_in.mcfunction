@@ -1,0 +1,19 @@
+replaceitem entity @s[hasitem={item=bg:wyvern_sword_empty}] slot.inventory 0 bg:wyvern_sword
+replaceitem entity @s[hasitem={item=bg:wyvern_pickaxe_empty}] slot.inventory 0 bg:wyvern_pickaxe
+replaceitem entity @s[hasitem={item=bg:wyvern_axe_empty}] slot.inventory 0 bg:wyvern_axe
+replaceitem entity @s[hasitem={item=bg:wyvern_shovel_empty}] slot.inventory 0 bg:wyvern_shovel
+replaceitem entity @s[hasitem={item=bg:wyvern_boots_empty}] slot.inventory 0 bg:wyvern_boots
+replaceitem entity @s[hasitem={item=bg:wyvern_helmet_empty}] slot.inventory 0 bg:wyvern_helmet
+replaceitem entity @s[hasitem={item=bg:wyvern_leggings_empty}] slot.inventory 0 bg:wyvern_leggings
+replaceitem entity @s[hasitem={item=bg:wyvern_chestplate_empty}] slot.inventory 0 bg:wyvern_chestplate
+
+replaceitem entity @s[hasitem={item=bg:draconic_sword_empty}] slot.inventory 0 bg:draconic_sword
+replaceitem entity @s[hasitem={item=bg:draconic_pickaxe_empty}] slot.inventory 0 bg:draconic_pickaxe
+replaceitem entity @s[hasitem={item=bg:draconic_axe_empty}] slot.inventory 0 bg:draconic_axe
+replaceitem entity @s[hasitem={item=bg:draconic_shovel_empty}] slot.inventory 0 bg:draconic_shovel
+replaceitem entity @s[hasitem={item=bg:draconic_hoe_empty}] slot.inventory 0 bg:draconic_hoe
+replaceitem entity @s[hasitem={item=bg:draconic_staff_of_power_empty}] slot.inventory 0 bg:draconic_staff_of_power
+replaceitem entity @s[hasitem={item=bg:draconic_boots_empty}] slot.inventory 0 bg:draconic_boots
+replaceitem entity @s[hasitem={item=bg:draconic_helmet_empty}] slot.inventory 0 bg:draconic_helmet
+replaceitem entity @s[hasitem={item=bg:draconic_leggings_empty}] slot.inventory 0 bg:draconic_leggings
+replaceitem entity @s[hasitem={item=bg:draconic_chestplate_empty}] slot.inventory 0 bg:draconic_chestplate

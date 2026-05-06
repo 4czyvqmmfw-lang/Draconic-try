@@ -1,0 +1,46 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "celestial_manipulator_gtrdtf6g"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "DCD",
+      "EAE",
+      "FBF"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:dragon_egg",
+        "data": 0
+      },
+      "B": {
+        "item": "bg:draconic_core",
+        "data": 0
+      },
+      "C": {
+        "item": "minecraft:clock",
+        "data": 0
+      },
+      "D": {
+        "item": "minecraft:redstone_block",
+        "data": 0
+      },
+      "E": {
+        "item": "bg:draconium_ingot",
+        "data": 0
+      },
+      "F": {
+        "item": "minecraft:iron_ingot",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "bg:celestial_manipulator",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+      "description": {
+        "identifier": "bg:draconic_energy_core",
+        "category": "items"
+    },
+    "components": {
+    "minecraft:creative_category": {
+      "parent": "itemGroup.name.blocks"
+    },
+			"minecraft:icon": {
+      "texture": "draconic_energy_core"
+    },
+    "minecraft:render_offsets": "item"
+      }
+   }
+}

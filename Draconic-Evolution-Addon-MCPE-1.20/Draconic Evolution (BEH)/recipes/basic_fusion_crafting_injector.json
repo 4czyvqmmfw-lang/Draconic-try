@@ -1,0 +1,38 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "basic_fusion_crafting_injector_h64dp67g"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "BAB",
+      "DCD",
+      "DDD"
+    ],
+    "key": {
+      "A": {
+        "item": "bg:draconic_core",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:diamond",
+        "data": 0
+      },
+      "C": {
+        "item": "minecraft:iron_block",
+        "data": 0
+      },
+      "D": {
+        "item": "minecraft:stone",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "bg:basic_fusion_crafting_injector",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.fusion_c_injector_item",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [0, -5, 0]
+				},
+				{
+					"name": "effect",
+					"parent": "root",
+					"pivot": [0, -5, 0],
+					"locators": {
+						"enchant": [0, 5, 0]
+					}
+				},
+				{
+					"name": "body",
+					"parent": "root",
+					"pivot": [0, -5, 0]
+				},
+				{
+					"name": "rightarm",
+					"parent": "body",
+					"pivot": [-10, -5, 0]
+				},
+				{
+					"name": "leftarm",
+					"parent": "body",
+					"pivot": [0, -5, 0]
+				},
+				{
+					"name": "point",
+					"pivot": [-0.5, 8, -1],
+					"rotation": [-90, 0, 0]
+				},
+				{
+					"name": "rightitem",
+					"parent": "point",
+					"pivot": [-1, 13, 0],
+					"rotation": [-75, -12, -16]
+				},
+				{
+					"name": "point2",
+					"pivot": [-0.5, 0, 1]
+				},
+				{
+					"name": "leftitem",
+					"parent": "point2",
+					"pivot": [5.5, 1, -3],
+					"rotation": [-20, 45, 0]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,45 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "Original mod by brandon3055. Port by Brunum",
+    "name": "Draconic Evolution Addon (BEH)",
+    "uuid": "abc99815-4e9c-45c4-ab93-aaab334e2523",
+    "version": [
+      2,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      20,
+      20
+    ]
+  },
+  "modules": [
+    {
+      "description": "Original mod by brandon3055. Port by Brunum",
+      "type": "data",
+      "uuid": "44a03eec-7d36-4348-964e-d6c7bfe4b6f6",
+      "version": [
+        3,
+        0,
+        0
+      ]
+    },
+    {
+      "description": "JSON",
+      "type": "script",
+      "language": "javascript",
+      "uuid": "52871963-311c-4dbb-953d-43452af45de4",
+      "version": [1, 1, 0],
+      "entry": "scripts/main.js"
+    }
+  ],
+	 "capabilities": [ "script_eval"],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.10.0-beta"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "mob_grinder_btrd6g7h"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "DCD",
+      "EAE",
+      "DBD"
+    ],
+    "key": {
+      "A": {
+        "item": "bg:draconic_core",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:furnace",
+        "data": 0
+      },
+      "C": {
+        "item": "bg:draconium_ingot",
+        "data": 0
+      },
+      "D": {
+        "item": "minecraft:iron_ingot",
+        "data": 0
+      },
+      "E": {
+        "item": "minecraft:diamond_sword",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "bg:mob_grinder",
+      "count": 1
+    }
+  }
+}

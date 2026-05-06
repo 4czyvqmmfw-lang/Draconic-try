@@ -1,0 +1,37 @@
+[
+  {
+    "flipbook_texture": "textures/blocks/creative_rf_source",
+    "atlas_tile": "tick_creative_rf_source",
+    "ticks_per_frame": 1
+  },
+  {
+    "flipbook_texture": "textures/blocks/draconium_ore_end",
+    "atlas_tile": "tick_draconium_ore_end",
+    "ticks_per_frame": 1
+  },
+  {
+    "flipbook_texture": "textures/blocks/draconium_ore_nether",
+    "atlas_tile": "tick_draconium_ore_nether",
+    "ticks_per_frame": 1
+  },
+  {
+    "flipbook_texture": "textures/blocks/draconium_ore",
+    "atlas_tile": "tick_draconium_ore",
+    "ticks_per_frame": 1
+  },
+  {
+    "flipbook_texture": "textures/blocks/generator_front_active",
+    "atlas_tile": "tick_generator_front_active",
+    "ticks_per_frame": 1
+  },
+  {
+    "flipbook_texture": "textures/blocks/machine_fan_active",
+    "atlas_tile": "tick_machine_fan_active",
+    "ticks_per_frame": 1
+  },
+  {
+    "flipbook_texture": "textures/blocks/mob_grinder_front_active",
+    "atlas_tile": "tick_mob_grinder_front_active",
+    "ticks_per_frame": 1
+  }
+]

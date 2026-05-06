@@ -1,0 +1,124 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "bg:draconic_fusion_crafting_injector",
+      "category": "construction",
+      "properties": {
+        "block:rotation": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      }
+    },
+    "components": {
+      "minecraft:creative_category":{
+      "category": "Construction",
+      "group": "itemGroup.name.Construction"
+      },
+      "minecraft:geometry": "geometry.fusion_crafting_injector",
+      "minecraft:destroy_time": 5.0,
+      "minecraft:friction": 0.6,
+      "minecraft:map_color": "#FFFFFF",
+      "minecraft:explosion_resistance": 30.0,
+      "minecraft:block_light_absorption": 0.0,
+      "minecraft:block_light_emission": 0.0,
+      "minecraft:on_player_placing": {
+        "event": "update_rotation"
+      },
+      "minecraft:pick_collision": {
+        "origin": [
+          -8.0,
+          0,
+          -8.0
+        ],
+        "size": [
+          14,
+          14,
+          14
+        ]
+      },
+      "minecraft:entity_collision": {
+        "origin": [
+          -8.0,
+          0,
+          -8.0
+        ],
+        "size": [
+          14,
+          14,
+          14
+        ]
+      },
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "draconic_fusion_crafting_injector",
+          "render_method": "alpha_test"
+        }
+      },
+      "minecraft:on_interact": {
+        "event": "troca"
+      }
+    },
+    "events": {
+      "update_rotation": {
+        "set_block_property": {
+          "block:rotation": "query.cardinal_facing_2d"
+        }
+      },
+      "troca": {
+				"run_command": {
+					"command": [
+			   		]
+			  	 }
+		  	 }
+    },
+    "permutations": [
+      {
+        "condition": "query.block_property('block:rotation') == 2",
+        "components": {
+          "minecraft:rotation": [
+            0,
+            -180,
+            0
+          ]
+        }
+      },
+      {
+        "condition": "query.block_property('block:rotation') == 3",
+        "components": {
+          "minecraft:rotation": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "condition": "query.block_property('block:rotation') == 4",
+        "components": {
+          "minecraft:rotation": [
+            0,
+            -90,
+            0
+          ]
+        }
+      },
+      {
+        "condition": "query.block_property('block:rotation') == 5",
+        "components": {
+          "minecraft:rotation": [
+            0,
+            90,
+            0
+          ]
+        }
+      }
+    ]
+  }
+}

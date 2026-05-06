@@ -1,0 +1,45 @@
+{
+    "format_version": "1.19.50",
+    "minecraft:item": {
+      "description": {
+        "identifier": "bg:info_tablet",
+        "category": "items"
+    },
+    "components": {
+    "minecraft:creative_category": {
+      "parent": "itemGroup.name.blocks"
+    },
+			"minecraft:icon": {
+      "texture": "info_tablet"
+    },
+    "minecraft:on_use": {
+      "on_use": {
+        "event": "info_tablet"
+      }
+    },
+    "minecraft:max_stack_size": 1,
+    "minecraft:render_offsets": {
+		"main_hand": {
+			"third_person": {
+				"position": [0.26, 1.0, -0.55],
+				"scale": [0.024, 0.024, 0.024]
+			},
+			"first_person": {
+				"position": [1.77, -0.4, -3.2],
+				"scale": [0.03, 0.03, 0.03]
+			}
+		}
+	}
+      },
+    "events": {
+      "info_tablet": {
+				   "run_command": {
+				    	"command": [
+            "structure load draconic_guide ~~~",
+            "replaceitem entity @s slot.weapon.mainhand 0 air"
+				      	  ]
+				       }
+         }
+      }
+   }
+}

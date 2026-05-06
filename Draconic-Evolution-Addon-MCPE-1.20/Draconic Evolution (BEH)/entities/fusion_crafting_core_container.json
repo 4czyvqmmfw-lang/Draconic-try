@@ -1,0 +1,102 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:entity": {
+      "description": {
+        "identifier": "bg:fusion_crafting_core_container",
+        "is_spawnable": false,
+        "is_summonable": true,
+        "is_experimental": false
+      },
+      "components": {
+      "minecraft:type_family": {
+          "family": [ "chest", "inanimate" ]
+      },
+      "minecraft:collision_box": {
+              "height": 0,
+              "width": 0
+          },
+          "minecraft:custom_hit_test": {
+              "hitboxes": [
+                  {
+                      "width": 1,
+                      "height": 0.25,
+                      "pivot": [0, 0.2, 0]
+                  }
+              ]
+          },
+      "minecraft:health": {
+          "value": 1
+      },
+      "minecraft:fire_immune": {},
+      "minecraft:damage_sensor": {
+          "triggers": {
+              "cause": "all",
+              "deals_damage": false
+          }
+      },
+      "minecraft:nameable": {},
+        "minecraft:inventory": {
+              "can_be_siphoned_from": true,
+              "container_type": "minecart_hopper",
+              "inventory_size": 1,
+              "private": false,
+              "restrict_to_owner": false
+          },
+        "minecraft:timer": {
+              "time": 0.1,
+              "looping": true,
+              "time_down_event": {
+               "event": "tick",
+                "target": "self"
+              }
+          },
+      "minecraft:inside_block_notifier": {
+          "block_list": [
+              {
+                  "block": "bg:fusion_crafting_core",
+                  "exited_block_event": {
+                      "event": "destroy",
+                      "target": "self"
+                      }
+                  }
+              ]
+          }
+      },
+      "events": {
+          "destroy": {
+            "filters": [
+                {
+                    "test": "has_component",
+                    "subject": "self",
+                    "operator": "!=",
+                    "value": "minecraft:instant_despawn"
+                }
+            ],
+              "run_command": {
+                  "command": "kill @s"
+                  }
+              },
+          "tick": {
+            "run_command": {
+                "command": [
+                  "execute as @s[hasitem={quantity=1, item=bg:basic_fusion_crafting_injector}] at @s run function fusion_crafting_core_1",
+                  "execute as @s[hasitem={quantity=4, item=bg:draconium_block}] at @s run function fusion_crafting_core_2",
+                  "execute as @s[hasitem={quantity=1, item=bg:wyvern_fusion_crafting_injector}] at @s run function fusion_crafting_core_3",
+                  "execute as @s[hasitem={quantity=1, item=bg:dislocator}] at @s run function fusion_crafting_core_4",
+                  "execute as @s[hasitem={quantity=1, item=nether_star}] at @s run function fusion_crafting_core_5",
+                  "execute as @s[hasitem={quantity=1, item=diamond_hoe}] at @s run function fusion_crafting_core_6",
+                  "execute as @s[hasitem={quantity=1, item=bg:wyvern_pickaxe_empty}] at @s run function fusion_crafting_core_8",
+                  "execute as @s[hasitem={quantity=1, item=bg:wyvern_axe_empty}] at @s run function fusion_crafting_core_9",
+                  "execute as @s[hasitem={quantity=1, item=bg:wyvern_shovel_empty}] at @s run function fusion_crafting_core_10",
+                  "execute as @s[hasitem={quantity=1, item=bg:wyvern_sword_empty}] at @s run function fusion_crafting_core_11",
+                  "execute as @s[hasitem={quantity=1, item=bg:wyvern_boots_empty}] at @s run function fusion_crafting_core_12",
+                  "execute as @s[hasitem={quantity=1, item=bg:wyvern_chestplate_empty}] at @s run function fusion_crafting_core_13",
+                  "execute as @s[hasitem={quantity=1, item=bg:wyvern_helmet_empty}] at @s run function fusion_crafting_core_14",
+                  "execute as @s[hasitem={quantity=1, item=bg:wyvern_leggings_empty}] at @s run function fusion_crafting_core_15",
+                  "execute as @s[hasitem={quantity=1, item=bg:draconic_pickaxe_empty}] at @s run function fusion_crafting_core_16"
+              ]
+            }
+         }
+      }
+   }
+}

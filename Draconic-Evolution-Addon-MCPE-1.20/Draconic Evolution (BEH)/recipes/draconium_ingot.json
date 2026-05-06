@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "draconium_ingot_g65dy8gu"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "AAA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "bg:draconium_nugget",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "bg:draconium_ingot",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "energy_infuser_gt5dt6yu"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "DBD",
+      "CAC",
+      "DCD"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:enchanting_table",
+        "data": 0
+      },
+      "B": {
+        "item": "bg:energy_core_stabilizer",
+        "data": 0
+      },
+      "C": {
+        "item": "bg:draconic_core",
+        "data": 0
+      },
+      "D": {
+        "item": "bg:draconium_ingot",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "bg:energy_infuser",
+      "count": 1
+    }
+  }
+}

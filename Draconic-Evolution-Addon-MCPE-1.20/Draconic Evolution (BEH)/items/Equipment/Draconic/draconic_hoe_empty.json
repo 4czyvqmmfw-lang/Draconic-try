@@ -1,0 +1,21 @@
+
+{
+  "format_version": "1.19.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "bg:draconic_hoe_empty",
+      "category": "equipment"
+    },
+    "components": {
+      "minecraft:icon": {
+        "texture": "draconic_hoe_empty"
+      },
+      "minecraft:creative_category": {
+        "parent": "itemGroup.name.hoe"
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:hand_equipped": true,
+	     "minecraft:damage": 2
+	     }
+   }
+}

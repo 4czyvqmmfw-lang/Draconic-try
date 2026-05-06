@@ -1,0 +1,37 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "bg:spruce_vein",
+    "category": "command"
+		},
+		"components": {
+     "minecraft:block_light_absorption": 0.0,    
+     "minecraft:loot": "loot_tables/blocks/spruce_vein.json",  
+                  "minecraft:material_instances": {
+                "*": {
+                    "texture": "wood_vein",
+                    "render_method": "opaque"
+          }
+        },
+  "minecraft:ticking": {
+  "looping": true,
+  "range": [ 0.1, 0.1],
+  "on_tick": {
+    "event": "vein",
+    "target": "self"
+  }
+}
+		},
+		"events": {
+			"vein": {
+				"run_command": {
+					"command": [
+						"function de_spruce_vein",
+						"setblock ~~~ air 0 destroy"
+					]
+				}
+			}
+		}
+	}
+}

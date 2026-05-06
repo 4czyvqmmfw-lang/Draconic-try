@@ -1,0 +1,99 @@
+{
+  "awakened_draconium_block": {
+    "textures": {
+      "up": "awakened_draconium_block",
+      "down": "awakened_draconium_block",
+      "side": "awakened_draconium_block_side"
+    },
+    "sound": "normal"
+  },
+  "basic_fusion_crafting_injector": {
+    "textures": "basic_fusion_crafting_injector",
+    "sound": "normal"
+  },
+  "celestial_manipulator": {
+    "textures": "celestial_manipulator",
+    "sound": "normal"
+  },
+  "creative_rf_source": {
+    "textures": "tick_creative_rf_source",
+    "sound": "stone"
+  },
+  "draconic_fusion_crafting_injector": {
+    "textures": "draconic_fusion_crafting_injector",
+    "sound": "normal"
+  },
+  "draconium_block": {
+    "textures": "draconium_block",
+    "sound": "normal"
+  },
+  "draconium_chest": {
+    "textures": "draconium_chest",
+    "sound": "normal"
+  },
+  "draconium_ore_end": {
+    "textures": "tick_draconium_ore_end",
+    "sound": "stone"
+  },
+  "draconium_ore_nether": {
+    "textures": "tick_draconium_ore_nether",
+    "sound": "stone"
+  },
+  "draconium_ore": {
+    "textures": "tick_draconium_ore",
+    "sound": "stone"
+  },
+  "energy_core_stabilizer": {
+    "textures": "energy_core_stabilizer",
+    "sound": "normal"
+  },
+  "energy_infuser": {
+    "textures": "energy_infuser",
+    "sound": "normal"
+  },
+  "fusion_crafting_core": {
+    "textures": "fusion_crafting_core",
+    "sound": "normal"
+  },
+  "generator_front_active": {
+    "textures": "tick_generator_front_active",
+    "sound": "normal"
+  },
+  "generator_front": {
+    "textures": "generator_front",
+    "sound": "normal"
+  },
+  "machine_side": {
+    "textures": "machine_side",
+    "sound": "normal"
+  },
+  "machine_top": {
+    "textures": "machine_top",
+    "sound": "normal"
+  },
+  "mob_grinder_front_active": {
+    "textures": "tick_mob_grinder_front_active",
+    "sound": "normal"
+  },
+  "machine_fan": {
+    "textures": "machine_fan",
+    "sound": "normal"
+  },
+  "machine_fan_active": {
+    "textures": "tick_machine_fan_active",
+    "sound": "normal"
+  },
+  "particle_generator": {
+    "textures": "particle_generator",
+    "sound": "normal"
+  },
+  "wyvern_fusion_crafting_injector": {
+    "textures": "wyvern_fusion_crafting_injector",
+    "sound": "normal"
+  },
+  "format_version": [
+    1,
+    1,
+    0
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "format_version": "1.10.0",
+  "animations": {
+    "animation.abds2.wield_first_person": {
+      "loop": true,
+      "bones": {
+        "rightitem": {
+          "position": [ 7.0, 5.0, 3.0 ],
+          "rotation": [ 180.0, 0.0, 45.0 ],
+          "scale": [ 1.0, 1.0, 1.0 ]
+        }
+      }
+    },
+    "animation.abds2.wield_third_person": {
+      "loop": true,
+      "bones": {
+        "rightitem": {
+          "position": [ 0.0, 0.0, 3.0 ],
+          "rotation": [ 97.0, 0.0, 90.0 ],
+          "scale": [ 0.8, 0.8, 0.8 ]
+        }
+      }
+    }
+  }
+}

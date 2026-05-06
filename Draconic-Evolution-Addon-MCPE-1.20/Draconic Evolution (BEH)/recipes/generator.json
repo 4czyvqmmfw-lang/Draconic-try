@@ -1,0 +1,38 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "generator_gt4pr5fg"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "DCD",
+      "CAC",
+      "DBD"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:furnace",
+        "data": 0
+      },
+      "B": {
+        "item": "bg:draconic_core",
+        "data": 0
+      },
+      "C": {
+        "item": "minecraft:iron_ingot",
+        "data": 0
+      },
+      "D": {
+        "item": "minecraft:netherbrick",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "bg:generator",
+      "count": 1
+    }
+  }
+}

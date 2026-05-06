@@ -1,0 +1,67 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:entity": {
+      "description": {
+        "identifier": "bg:energy_infuser_container",
+        "is_spawnable": false,
+        "is_summonable": true,
+        "is_experimental": false
+      },
+      "components": {
+      "minecraft:type_family": {
+          "family": [ "chest", "inanimate" ]
+      },
+      "minecraft:collision_box": {
+              "height": 0,
+              "width": 0
+          },
+          "minecraft:custom_hit_test": {
+              "hitboxes": [
+                  {
+                      "width": 1,
+                      "height": 0.25,
+                      "pivot": [0, 0.2, 0]
+                  }
+              ]
+          },
+      "minecraft:health": {
+          "value": 1
+      },
+      "minecraft:fire_immune": {},
+      "minecraft:damage_sensor": {
+          "triggers": {
+              "cause": "all",
+              "deals_damage": false
+          }
+      },
+      "minecraft:nameable": {},
+        "minecraft:inventory": {
+              "can_be_siphoned_from": true,
+              "container_type": "minecart_hopper",
+              "inventory_size": 1,
+              "private": false,
+              "restrict_to_owner": false
+          },
+        "minecraft:timer": {
+              "time": 0.1,
+              "looping": true,
+              "time_down_event": {
+               "event": "tick",
+                "target": "self"
+              }
+          }
+      },
+      "events": {
+          "tick": {
+            "run_command": {
+                "command": [
+                  "execute as @s at @s unless block ~~~ bg:energy_infuser run kill @s",
+                  "scoreboard players add @s draconic_energy 0",
+                  "tag @s[tag=!draconic_energy, scores={draconic_energy=15..}] add draconic_energy",
+                  "tag @s[tag=draconic_energy, scores={draconic_energy=..14}] remove draconic_energy"
+              ]
+            }
+         }
+      }
+   }
+}
