@@ -1,0 +1,38 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "WAILA Reluk BP",
+    "description": "What Am I Looking At – Behavior Pack",
+    "uuid": "8f3a9b21-4d5c-47e1-9a02-1b7c6e5a4d10",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 26, 20]
+  },
+  "modules": [
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "c4d2e1a7-9b56-4f83-87c1-2d6f5b3a9e44",
+      "version": [1, 0, 0],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "a1b9c2d4-7e83-4f6a-b502-9d3e8c1a5f72",
+      "version": [1, 0, 0]
+    },
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.1.0"
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": "2.1.0"
+    }
+  ],
+  "metadata": {
+    "authors": ["Reluk"],
+    "license": "MIT",
+    "product_type": "addon"
+  }
+}

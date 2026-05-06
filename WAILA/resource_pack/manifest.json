@@ -1,0 +1,28 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "WAILA Reluk RP",
+    "description": "What Am I Looking At – Resource Pack",
+    "uuid": "a1b9c2d4-7e83-4f6a-b502-9d3e8c1a5f72",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 26, 20]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "f7e6d5c4-3b2a-4918-8c7d-6e5f4a3b2c19",
+      "version": [1, 0, 0]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "8f3a9b21-4d5c-47e1-9a02-1b7c6e5a4d10",
+      "version": [1, 0, 0]
+    }
+  ],
+  "metadata": {
+    "authors": ["Reluk"],
+    "license": "MIT",
+    "product_type": "addon"
+  }
+}
